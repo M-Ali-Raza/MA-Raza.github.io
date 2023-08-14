@@ -1,0 +1,69 @@
+.page1-iii{
+    flex-direction: column-reverse;
+}
+.content2{
+    width: inherit;
+    text-align: center;
+    align-items: center;
+    margin-top: -5%;
+}
+.para2{
+    margin-top: 1%;
+}
+.frame3{
+    width: 60vw;
+    margin-top: 5%;
+}
+.img3{
+    width: 68vw;
+}
+.btn-ii{
+    width: 20vw;
+    margin-top: 1%;
+}
+.download-btn{
+    zoom: 40%;
+}
+.port-container2{
+    height: 89.45%;
+    width: inherit;
+    overflow: hidden;
+    position: relative;
+    margin-top: 12%;
+    display: flex;
+    justify-content: center;
+}
+.right-btn2{
+    display: none;
+}
+.up-btn{
+    top: 1%;
+}
+.down-btn{
+    display: flex;
+    top: 89%;
+}
+.port-slider2{
+    height: 151vh;
+    width: inherit;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+.part2{
+    height: 100vh;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.proj2{
+    height: 28%;
+    width: 70%;
+}
+.proj2-img{
+    height: 100%;
+    width: 100%;
+}

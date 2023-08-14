@@ -1,0 +1,102 @@
+.small-webpage{
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.small-headbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    width: 100vw;
+    height: 15vh;
+    background-color: #262674;
+    color: white;
+}
+.logo2{
+    height: 18vh;
+}
+.burger{
+    zoom: 160%;
+}
+.navbar2{
+    display: none;
+}
+.navbar2-ii{
+    height: 85.1vh;
+    width: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 14.9vh;
+    right: 0;
+    z-index: 4;
+    transition: width 0.5s linear 0s;
+    background-color: #262674;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.background2{
+    display: block;
+    background-color: black;
+    position: absolute;
+    top: 14.9vh;
+    right: 0;
+    height: 85.1vh;
+    width: 100vw;
+    z-index: 0;
+    opacity: 0;
+}
+.navbar-ii ul li{
+    list-style: none;
+    outline: none;
+}
+#home2{
+    color: #262674;
+    background-color: white;
+    height: 66px;
+    width: 66px;
+}
+#home2:hover{
+    outline: none;
+}
+#education2{
+    top: 21px;
+    left: -17px;
+}
+#skills2{
+    bottom: 21px;
+    left: -17px;
+}
+#services2{
+    bottom: 21px;
+    right: -17px;
+}
+#contact2{
+    top: 21px;
+    right: -17px;
+}
+.page-ii{
+    height: 85vh;
+}
+.frame2{
+    width: 29vw;
+}
+.img2{
+    top: -71px;
+    width: 34vw;
+}
+.scaleCover2{
+    width: inherit;
+}
+.cardCover2{
+    width: inherit;
+}
+.skillset2{
+    width: inherit;
+}
+.contactbox2{
+    width: inherit;
+}
